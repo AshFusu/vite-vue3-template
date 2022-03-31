@@ -1,5 +1,5 @@
 {
-  "name": "vite-template",
+  "name": "vite-vue3-template",
   "version": "1.0.0",
   "description": "A simple opinionated Vue3 Starter Template with Vite.js",
   "author": {
@@ -7,7 +7,7 @@
     "email": "ash.fusu@gmail.com",
     "url": "https://github.com/ashfusu"
   },
-  "homepage": "https://github.com/ashfusu/vite-template",
+  "homepage": "https://github.com/ashfusu/vite-vue3-template",
   "scripts": {
     "dev": "vite --host",
     "dev:force": "vite --host --force",

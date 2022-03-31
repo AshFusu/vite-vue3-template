@@ -8,7 +8,7 @@ To run a project, you need to have **node version 16** or higher and **use yarn 
 
 ```bash
 # Clone this repository
-$ git clone git@github.com:AshFusu/vite-template.git
+$ git clone git@github.com:AshFusu/vite-vue3-template.git
 # Go into the repository
 $ cd vite-template
 # install dependencies
