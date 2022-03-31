@@ -1,0 +1,33 @@
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
+    node: true
+  },
+  // eslint-plugin-vue https://eslint.vuejs.org/user-guide/#installation
+  parser: 'vue-eslint-parser',
+  extends: [
+    // eslint-plugin-vue https://eslint.vuejs.org/user-guide/#usage
+    'plugin:vue/vue3-recommended',
+    // @typescript-eslint/eslint-plugin https://typescript-eslint.io/docs/linting/
+    'plugin:@typescript-eslint/recommended',
+    // eslint-plugin-prettier https://github.com/prettier/eslint-plugin-prettier
+    'plugin:prettier/recommended'
+  ],
+  parserOptions: {
+    ecmaVersion: 13,
+    // @typescript-eslint/parser
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  plugins: [
+    // eslint-plugin-vue https://eslint.vuejs.org/user-guide/#faq
+    'vue',
+    // @typescript-eslint/eslint-plugin https://typescript-eslint.io/docs/linting/
+    '@typescript-eslint'
+  ],
+  rules: {}
+}

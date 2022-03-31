@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types", "types"],
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "/@/*": ["src/*"],
+      "/#/*": ["types/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.ts",
+    "types/**/*.d.ts",
+    "tests/**/*.ts",
+    "config/**/*.ts",
+    "config/**/*.d.ts"
+  ],
+  "exclude": ["node_modules", "dist"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -1,0 +1,17 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8                    # latin1 utf-8 utf-8-bom utf-16be utf-16le
+end_of_line = lf                   # lf cr crtf
+indent_style = space               # space tab
+indent_size = 2                    # 2 4 8
+# insert a newline at the end of the file if it does not end with one
+insert_final_newline = true
+
+[*.md]
+# remove any whitespace characters preceding newline characters
+trim_trailing_whitespace = false
