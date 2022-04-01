@@ -1,3 +1,16 @@
 {
-  "recommendations": ["johnsoncodehk.volar"]
+  "recommendations": [
+    "antfu.iconify",
+    "mikestead.dotenv",
+    "lokalise.i18n-ally",
+    "christian-kohler.path-intellisense",
+    "johnsoncodehk.volar",
+    "johnsoncodehk.vscode-typescript-vue-plugin",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "redhat.vscode-yaml"
+    // "antfu.vite",
+  ]
 }

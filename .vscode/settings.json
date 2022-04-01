@@ -1,8 +1,75 @@
 {
   "files.exclude": {
-    ".husky": true,
-    ".idea": true,
-    ".vscode": true,
+    ".husky": false,
+    ".idea": false,
+    ".vscode": false,
     "node_modules": true
+  },
+
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.mappings": {
+    "/@/": "${workspaceFolder}/src",
+    "/#/": "${workspaceFolder}/types",
+    "/!/": "${workspaceFolder}/config"
+  },
+
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "typescript", "vue"],
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": ["html", "css", "postcss", "less", "vue"],
+
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[css]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[postcss]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[less]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   }
 }
