@@ -26,6 +26,7 @@ specifiers:
   prettier: ^2.6.1
   stylelint: ^14.6.1
   stylelint-config-html: ^1.0.0
+  stylelint-config-prettier: ^9.0.3
   stylelint-config-recommended: ^7.0.0
   stylelint-config-recommended-vue: ^1.4.0
   stylelint-config-standard: ^25.0.0
@@ -67,6 +68,7 @@ devDependencies:
   prettier: 2.6.1
   stylelint: 14.6.1
   stylelint-config-html: 1.0.0_50484b26a38601352aaf9ea7986ae8a8
+  stylelint-config-prettier: 9.0.3_stylelint@14.6.1
   stylelint-config-recommended: 7.0.0_stylelint@14.6.1
   stylelint-config-recommended-vue: 1.4.0_50484b26a38601352aaf9ea7986ae8a8
   stylelint-config-standard: 25.0.0_stylelint@14.6.1
@@ -3879,6 +3881,16 @@ packages:
       stylelint: '>=14.0.0'
     dependencies:
       postcss-html: 1.3.0
+      stylelint: 14.6.1
+    dev: true
+
+  /stylelint-config-prettier/9.0.3_stylelint@14.6.1:
+    resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    peerDependencies:
+      stylelint: '>=11.0.0'
+    dependencies:
       stylelint: 14.6.1
     dev: true
 
