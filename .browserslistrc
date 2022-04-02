@@ -1,0 +1,5 @@
+# Run npx browserslist in project directory to see what browsers was selected by your queries.
+
+>= 0.5%
+last 10 versions
+not dead
