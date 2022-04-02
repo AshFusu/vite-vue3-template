@@ -3,7 +3,7 @@
     ".husky": false,
     ".idea": false,
     ".vscode": false,
-    "node_modules": true
+    "node_modules": false
   },
 
   "javascript.suggest.paths": false,

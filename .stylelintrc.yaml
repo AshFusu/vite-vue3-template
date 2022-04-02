@@ -1,7 +1,20 @@
 root: true
 extends:
+  # rules
   - stylelint-config-standard
+  # rules
   - stylelint-config-recommended
-  - stylelint-config-html
+  # overrides: html
+  - stylelint-config-html/html
+  # overrides: vue
   - stylelint-config-recommended-vue
-  - stylelint-config-prettier
+  # prettier
+  # - stylelint-config-prettier
+overrides:
+  - files:
+      - "*.less"
+      - "**/*.less"
+    customSyntax: postcss-less
+    extends:
+      - stylelint-config-standard
+      - stylelint-config-recommended-vue
